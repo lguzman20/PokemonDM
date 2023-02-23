@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PokemonDM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- My strings -->
+    <string name="client_id">256459142729-rq4lrv2l419etvhu4qr0eec9i04i729k.apps.googleusercontent.com</string>
+    <string name="pokemon_image">Pokemon Image</string>
+    <string name="type">Type:</string>
+    <string name="hp">Hp:</string>
+    <string name="speed">Speed:</string>
+    <string name="attack">Attack:</string>
+    <string name="defense">Defense:</string>
+    <string name="special_attack">Special Attack:</string>
+    <string name="special_defense">Special Defense:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="metro"> %sm</string>
+    <string name="kilo"> %skg</string>
+    <string name="txt_register_dialog">The requested data is not registered, \nplease press the button to register.</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_save">save</string>
+</resources>

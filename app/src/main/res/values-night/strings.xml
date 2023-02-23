@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_register_dialog">The requested data is not registered, \nplease press the button to register.</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_save">save</string>
+</resources>

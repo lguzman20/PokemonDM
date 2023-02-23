@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256459142729",
+    "project_id": "pokemondm-de7f3",
+    "storage_bucket": "pokemondm-de7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256459142729:android:a185a88a7392ba0cbff198",
+        "android_client_info": {
+          "package_name": "com.luisguzman.pokemondm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256459142729-rq4lrv2l419etvhu4qr0eec9i04i729k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpLouzs7vMF4aSonkM1_ZF-JcFRwSVwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256459142729-rq4lrv2l419etvhu4qr0eec9i04i729k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

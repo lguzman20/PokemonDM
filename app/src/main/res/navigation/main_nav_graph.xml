@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/regionFragment">
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.luisguzman.pokemondm.ui.main.details.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/regionFragment"
+        android:name="com.luisguzman.pokemondm.ui.main.region.RegionFragment"
+        android:label="fragment_region"
+        tools:layout="@layout/fragment_region" >
+        <action
+            android:id="@+id/action_regionFragment_to_pokemonFragment"
+            app:destination="@id/pokemonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonFragment"
+        android:name="com.luisguzman.pokemondm.ui.main.pokemon.PokemonFragment"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" >
+        <action
+            android:id="@+id/action_pokemonFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="region"
+            app:argType="string" />
+    </fragment>
+</navigation>
