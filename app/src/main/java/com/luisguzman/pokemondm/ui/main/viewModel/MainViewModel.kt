@@ -23,7 +23,7 @@ class MainViewModel @Inject constructor(
                 .collection("teams").document(teamName).set(PokemonInfo(id, image, name))
         }
     }
-    
+
 
     fun getAllRegion() = liveData(viewModelScope.coroutineContext + Dispatchers.IO) {
         emit(State.Loading())
